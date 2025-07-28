@@ -42,19 +42,13 @@ This repository provides the official implementation of **pi0 open-sourse VLA mo
 This repository has been tested with Ubuntu 22.04. Follow these steps to set up your development environment:
 
 
-1.  **Clone the Repository (with Submodules)**
-    When cloning, ensure you pull all submodules:
+1.  **Clone the Repository**
 
     ```bash
-    git clone --recurse-submodules https://github.com/MagiclabRobotics/magicbot-gen1_pi0_demo.git
+    git clone git@github.com:MagiclabRobotics/magicbot-gen1_pi0_demo.git
     cd magicbot-gen1_pi0_demo
     ```
 
-    If you have already cloned without submodules, run:
-
-    ```bash
-    git submodule update --init --recursive
-    ```
 
 2.  **Manage Python Dependencies with `uv`**
     We use `uv` to manage our Python environment. If you don't have it installed yet, please refer to the [official uv installation guide](https://www.google.com/search?q=https://github.com/astral-sh/uv%23installation).

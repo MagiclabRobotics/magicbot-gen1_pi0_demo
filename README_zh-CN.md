@@ -42,18 +42,11 @@
 
 在开始之前，请确保您的开发环境符合要求。本项目已在 **Ubuntu 22.04** 环境下完成充分测试。请遵循以下步骤进行安装：
 
-1.  **克隆本代码库 (含子模块)**
-    请使用 `--recurse-submodules` 参数以确保所有依赖的子模块都能被正确克隆：
+1.  **克隆本代码库 **
 
     ```bash
-    git clone --recurse-submodules https://github.com/MagiclabRobotics/magicbot-gen1_pi0_demo.git
+    git clone git@github.com:MagiclabRobotics/magicbot-gen1_pi0_demo.git
     cd magicbot-gen1_pi0_demo
-    ```
-
-    如果已克隆但忘记添加参数，可以运行以下命令来补全子模块：
-
-    ```bash
-    git submodule update --init --recursive
     ```
 
 2.  **使用 `uv` 管理 Python 依赖**
